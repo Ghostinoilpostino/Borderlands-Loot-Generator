@@ -113,7 +113,9 @@
             // lbl10
             // 
             this.lbl10.AutoSize = true;
+            this.lbl10.BackColor = System.Drawing.Color.Transparent;
             this.lbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl10.ForeColor = System.Drawing.Color.Fuchsia;
             this.lbl10.Location = new System.Drawing.Point(156, 120);
             this.lbl10.Name = "lbl10";
             this.lbl10.Size = new System.Drawing.Size(78, 55);

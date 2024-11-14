@@ -24,7 +24,7 @@ namespace BLGuga
             this.company = company;
             this.ability = ability;
 
-
+            
         }
     }
 }
