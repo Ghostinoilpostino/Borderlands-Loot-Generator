@@ -1,0 +1,11 @@
+C:\Users\spamp\source\repos\BLGuga\BLGuga\bin\Debug\BLGuga.exe.config
+C:\Users\spamp\source\repos\BLGuga\BLGuga\bin\Debug\BLGuga.exe
+C:\Users\spamp\source\repos\BLGuga\BLGuga\bin\Debug\BLGuga.pdb
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.csproj.AssemblyReference.cache
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.Form1.resources
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.Properties.Resources.resources
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.csproj.GenerateResource.cache
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.csproj.CoreCompileInputs.cache
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.exe
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.pdb
+C:\Users\spamp\source\repos\BLGuga\BLGuga\obj\Debug\BLGuga.Form2.resources
