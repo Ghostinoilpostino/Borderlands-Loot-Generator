@@ -57,6 +57,27 @@ namespace BLGuga
             this.lbl8.Hide();
 
             int[] rolls = RollDice((int) this.inputRarMod.Value);
+            switch (this.inputRollMod.SelectedIndex)
+            {
+                case 0:
+                    break;
+                case 1:
+                    rolls[1] = new Random().Next(1, 7);
+                    this.lbl10.Text = rolls[1].ToString();
+                    break;
+                case 2:
+                    rolls[1] = 7;
+                    this.lbl10.Text = rolls[1].ToString();
+                    break;
+                case 3:
+                    rolls[1] = 10;
+                    this.lbl10.Text = rolls[1].ToString();
+                    break;
+                case 4:
+                    rolls[1] = 8;
+                    this.lbl10.Text = rolls[1].ToString();
+                    break;
+            }
             this.lbl100.Show();
             if (rolls[0] > 100)
             {
@@ -254,6 +275,11 @@ namespace BLGuga
         private void GenerateWeapon(int rarity, int weaponType, int company, int ability)
         {
             new Form2(rarity, weaponType, company, ability, this.lbl4).Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            inputRollMod.SelectedIndex = 0;
         }
     }
 }

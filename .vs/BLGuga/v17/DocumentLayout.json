@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\spamp\\source\\repos\\BLGuga\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|c:\\users\\spamp\\source\\repos\\blguga\\blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|solutionrelative:blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|C:\\Users\\spamp\\source\\repos\\BLGuga\\blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|solutionrelative:blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|C:\\Users\\spamp\\source\\repos\\BLGuga\\blguga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|solutionrelative:blguga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|C:\\Users\\spamp\\source\\repos\\BLGuga\\blguga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|solutionrelative:blguga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|C:\\Users\\spamp\\source\\repos\\BLGuga\\blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|solutionrelative:blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|c:\\users\\spamp\\source\\repos\\blguga\\blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE238703-0342-4DD8-96F4-758BA0C91DB5}|BLGuga\\BLGuga.csproj|solutionrelative:blguga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form2.cs",
               "RelativeDocumentMoniker": "BLGuga\\Form2.cs",
@@ -43,37 +43,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form2.cs",
               "RelativeDocumentMoniker": "BLGuga\\Form2.cs",
               "ToolTip": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form2.cs [Design]",
               "RelativeToolTip": "BLGuga\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:50:44.214Z"
+              "WhenOpened": "2024-11-14T12:50:44.214Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form1.cs",
               "RelativeDocumentMoniker": "BLGuga\\Form1.cs",
               "ToolTip": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form1.cs",
               "RelativeToolTip": "BLGuga\\Form1.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAcwNoAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAIAxwE0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T11:45:00.416Z"
+              "WhenOpened": "2024-11-12T11:45:00.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form1.cs",
               "RelativeDocumentMoniker": "BLGuga\\Form1.cs",
               "ToolTip": "C:\\Users\\spamp\\source\\repos\\BLGuga\\BLGuga\\Form1.cs [Design]",
               "RelativeToolTip": "BLGuga\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:49:10.777Z"
+              "WhenOpened": "2024-11-11T12:49:10.777Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

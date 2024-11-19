@@ -39,6 +39,8 @@
             this.lbl8 = new System.Windows.Forms.Label();
             this.lbl4 = new System.Windows.Forms.Label();
             this.lbl100 = new System.Windows.Forms.Label();
+            this.lblRollMod = new System.Windows.Forms.Label();
+            this.inputRollMod = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.inputRarMod)).BeginInit();
             this.SuspendLayout();
             // 
@@ -166,6 +168,30 @@
             this.lbl100.Text = "100";
             this.lbl100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblRollMod
+            // 
+            this.lblRollMod.AutoSize = true;
+            this.lblRollMod.Location = new System.Drawing.Point(297, 71);
+            this.lblRollMod.Name = "lblRollMod";
+            this.lblRollMod.Size = new System.Drawing.Size(65, 13);
+            this.lblRollMod.TabIndex = 10;
+            this.lblRollMod.Text = "Roll Modifier";
+            // 
+            // inputRollMod
+            // 
+            this.inputRollMod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.inputRollMod.FormattingEnabled = true;
+            this.inputRollMod.Items.AddRange(new object[] {
+            "None",
+            "Weapon",
+            "Grenade",
+            "Relic",
+            "Shield"});
+            this.inputRollMod.Location = new System.Drawing.Point(406, 68);
+            this.inputRollMod.Name = "inputRollMod";
+            this.inputRollMod.Size = new System.Drawing.Size(121, 21);
+            this.inputRollMod.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +199,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 620);
+            this.Controls.Add(this.inputRollMod);
+            this.Controls.Add(this.lblRollMod);
             this.Controls.Add(this.lbl100);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.lbl8);
@@ -185,6 +213,7 @@
             this.Controls.Add(this.btnGenerate);
             this.Name = "Form1";
             this.Text = "Borderlands Loot Generator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inputRarMod)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -203,6 +232,8 @@
         private System.Windows.Forms.Label lbl8;
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label lbl100;
+        private System.Windows.Forms.Label lblRollMod;
+        private System.Windows.Forms.ComboBox inputRollMod;
     }
 }
 
