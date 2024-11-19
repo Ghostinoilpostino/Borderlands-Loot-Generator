@@ -80,6 +80,8 @@ namespace BLGuga
                     GenerateGrenade(rolls[0] , rolls[2]);
                     return;
                 default:
+                    this.lbl12.Show();
+                    this.lbl8.Show();
                     GenerateWeapon(rolls[0], rolls[1], rolls[2], rolls[3]);
                     return;
             }
@@ -251,7 +253,7 @@ namespace BLGuga
 
         private void GenerateWeapon(int rarity, int weaponType, int company, int ability)
         {
-            new Form2(rarity, weaponType, company, ability).Show();
+            new Form2(rarity, weaponType, company, ability, this.lbl4).Show();
         }
     }
 }

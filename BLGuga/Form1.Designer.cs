@@ -83,7 +83,9 @@
             // lbl12
             // 
             this.lbl12.AutoSize = true;
+            this.lbl12.BackColor = System.Drawing.Color.Transparent;
             this.lbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl12.ForeColor = System.Drawing.Color.Red;
             this.lbl12.Location = new System.Drawing.Point(568, 120);
             this.lbl12.Name = "lbl12";
             this.lbl12.Size = new System.Drawing.Size(78, 55);
@@ -93,7 +95,9 @@
             // lbl20
             // 
             this.lbl20.AutoSize = true;
+            this.lbl20.BackColor = System.Drawing.Color.Transparent;
             this.lbl20.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lbl20.Location = new System.Drawing.Point(568, 284);
             this.lbl20.Name = "lbl20";
             this.lbl20.Size = new System.Drawing.Size(78, 55);
@@ -103,7 +107,9 @@
             // lbl6
             // 
             this.lbl6.AutoSize = true;
+            this.lbl6.BackColor = System.Drawing.Color.Transparent;
             this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6.ForeColor = System.Drawing.Color.Cyan;
             this.lbl6.Location = new System.Drawing.Point(577, 451);
             this.lbl6.Name = "lbl6";
             this.lbl6.Size = new System.Drawing.Size(51, 55);
@@ -126,7 +132,9 @@
             // lbl8
             // 
             this.lbl8.AutoSize = true;
+            this.lbl8.BackColor = System.Drawing.Color.Transparent;
             this.lbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lbl8.Location = new System.Drawing.Point(156, 284);
             this.lbl8.Name = "lbl8";
             this.lbl8.Size = new System.Drawing.Size(51, 55);
@@ -136,7 +144,9 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
+            this.lbl4.BackColor = System.Drawing.Color.Transparent;
             this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lbl4.Location = new System.Drawing.Point(156, 451);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(51, 55);
@@ -146,7 +156,9 @@
             // lbl100
             // 
             this.lbl100.AutoSize = true;
+            this.lbl100.BackColor = System.Drawing.Color.Transparent;
             this.lbl100.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl100.ForeColor = System.Drawing.Color.Lime;
             this.lbl100.Location = new System.Drawing.Point(351, 158);
             this.lbl100.Name = "lbl100";
             this.lbl100.Size = new System.Drawing.Size(105, 55);

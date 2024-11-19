@@ -29,70 +29,382 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lblDmg = new System.Windows.Forms.Label();
+            this.iconPistol = new System.Windows.Forms.PictureBox();
+            this.iconRifle = new System.Windows.Forms.PictureBox();
+            this.iconRpg = new System.Windows.Forms.PictureBox();
+            this.iconShotgun = new System.Windows.Forms.PictureBox();
+            this.iconSmg = new System.Windows.Forms.PictureBox();
+            this.iconSniper = new System.Windows.Forms.PictureBox();
+            this.lblAcc = new System.Windows.Forms.Label();
+            this.lblRof = new System.Windows.Forms.Label();
+            this.lblReload = new System.Windows.Forms.Label();
+            this.lblMag = new System.Windows.Forms.Label();
+            this.lblRarity = new System.Windows.Forms.Label();
+            this.iconBandit = new System.Windows.Forms.PictureBox();
+            this.iconDahl = new System.Windows.Forms.PictureBox();
+            this.iconHyperion = new System.Windows.Forms.PictureBox();
+            this.iconJakobs = new System.Windows.Forms.PictureBox();
+            this.iconMaliwan = new System.Windows.Forms.PictureBox();
+            this.iconTediore = new System.Windows.Forms.PictureBox();
+            this.iconTorgue = new System.Windows.Forms.PictureBox();
+            this.iconVladof = new System.Windows.Forms.PictureBox();
+            this.iconCorrosive = new System.Windows.Forms.PictureBox();
+            this.iconExplosive = new System.Windows.Forms.PictureBox();
+            this.iconFire = new System.Windows.Forms.PictureBox();
+            this.iconShock = new System.Windows.Forms.PictureBox();
+            this.iconSlag = new System.Windows.Forms.PictureBox();
+            this.lblSpecial = new System.Windows.Forms.Label();
+            this.lblCrit = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPistol)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconRifle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconRpg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconShotgun)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSmg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSniper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBandit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconDahl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconHyperion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconJakobs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMaliwan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconTediore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconTorgue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconVladof)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCorrosive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconExplosive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconFire)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconShock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSlag)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblDmg
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(520, 102);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.lblDmg.AutoSize = true;
+            this.lblDmg.BackColor = System.Drawing.Color.Transparent;
+            this.lblDmg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDmg.ForeColor = System.Drawing.Color.Lime;
+            this.lblDmg.Location = new System.Drawing.Point(312, 120);
+            this.lblDmg.Name = "lblDmg";
+            this.lblDmg.Size = new System.Drawing.Size(80, 20);
+            this.lblDmg.TabIndex = 1;
+            this.lblDmg.Text = "lblDanno";
             // 
-            // label2
+            // iconPistol
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(520, 125);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.iconPistol.BackColor = System.Drawing.Color.Transparent;
+            this.iconPistol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconPistol.BackgroundImage")));
+            this.iconPistol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconPistol.Location = new System.Drawing.Point(501, 472);
+            this.iconPistol.Name = "iconPistol";
+            this.iconPistol.Size = new System.Drawing.Size(163, 124);
+            this.iconPistol.TabIndex = 6;
+            this.iconPistol.TabStop = false;
+            this.iconPistol.Visible = false;
             // 
-            // label3
+            // iconRifle
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(520, 155);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.iconRifle.BackColor = System.Drawing.Color.Transparent;
+            this.iconRifle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconRifle.BackgroundImage")));
+            this.iconRifle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconRifle.Location = new System.Drawing.Point(504, 476);
+            this.iconRifle.Name = "iconRifle";
+            this.iconRifle.Size = new System.Drawing.Size(158, 120);
+            this.iconRifle.TabIndex = 7;
+            this.iconRifle.TabStop = false;
+            this.iconRifle.Visible = false;
             // 
-            // label4
+            // iconRpg
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(520, 189);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
+            this.iconRpg.BackColor = System.Drawing.Color.Transparent;
+            this.iconRpg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconRpg.BackgroundImage")));
+            this.iconRpg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconRpg.Location = new System.Drawing.Point(506, 476);
+            this.iconRpg.Name = "iconRpg";
+            this.iconRpg.Size = new System.Drawing.Size(159, 120);
+            this.iconRpg.TabIndex = 8;
+            this.iconRpg.TabStop = false;
+            this.iconRpg.Visible = false;
             // 
-            // label5
+            // iconShotgun
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(520, 215);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
+            this.iconShotgun.BackColor = System.Drawing.Color.Transparent;
+            this.iconShotgun.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconShotgun.BackgroundImage")));
+            this.iconShotgun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconShotgun.Location = new System.Drawing.Point(504, 476);
+            this.iconShotgun.Name = "iconShotgun";
+            this.iconShotgun.Size = new System.Drawing.Size(160, 121);
+            this.iconShotgun.TabIndex = 9;
+            this.iconShotgun.TabStop = false;
+            this.iconShotgun.Visible = false;
             // 
-            // pictureBox1
+            // iconSmg
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(406, 367);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(163, 124);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.iconSmg.BackColor = System.Drawing.Color.Transparent;
+            this.iconSmg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconSmg.BackgroundImage")));
+            this.iconSmg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconSmg.Location = new System.Drawing.Point(506, 476);
+            this.iconSmg.Name = "iconSmg";
+            this.iconSmg.Size = new System.Drawing.Size(158, 120);
+            this.iconSmg.TabIndex = 10;
+            this.iconSmg.TabStop = false;
+            this.iconSmg.Visible = false;
+            // 
+            // iconSniper
+            // 
+            this.iconSniper.BackColor = System.Drawing.Color.Transparent;
+            this.iconSniper.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconSniper.BackgroundImage")));
+            this.iconSniper.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconSniper.Location = new System.Drawing.Point(474, 476);
+            this.iconSniper.Name = "iconSniper";
+            this.iconSniper.Size = new System.Drawing.Size(215, 121);
+            this.iconSniper.TabIndex = 11;
+            this.iconSniper.TabStop = false;
+            this.iconSniper.Visible = false;
+            // 
+            // lblAcc
+            // 
+            this.lblAcc.AutoSize = true;
+            this.lblAcc.BackColor = System.Drawing.Color.Transparent;
+            this.lblAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcc.ForeColor = System.Drawing.Color.Lime;
+            this.lblAcc.Location = new System.Drawing.Point(312, 153);
+            this.lblAcc.Name = "lblAcc";
+            this.lblAcc.Size = new System.Drawing.Size(57, 20);
+            this.lblAcc.TabIndex = 12;
+            this.lblAcc.Text = "lblAcc";
+            // 
+            // lblRof
+            // 
+            this.lblRof.AutoSize = true;
+            this.lblRof.BackColor = System.Drawing.Color.Transparent;
+            this.lblRof.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRof.ForeColor = System.Drawing.Color.Lime;
+            this.lblRof.Location = new System.Drawing.Point(312, 189);
+            this.lblRof.Name = "lblRof";
+            this.lblRof.Size = new System.Drawing.Size(57, 20);
+            this.lblRof.TabIndex = 13;
+            this.lblRof.Text = "label3";
+            // 
+            // lblReload
+            // 
+            this.lblReload.AutoSize = true;
+            this.lblReload.BackColor = System.Drawing.Color.Transparent;
+            this.lblReload.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReload.ForeColor = System.Drawing.Color.Lime;
+            this.lblReload.Location = new System.Drawing.Point(312, 223);
+            this.lblReload.Name = "lblReload";
+            this.lblReload.Size = new System.Drawing.Size(57, 20);
+            this.lblReload.TabIndex = 14;
+            this.lblReload.Text = "label4";
+            // 
+            // lblMag
+            // 
+            this.lblMag.AutoSize = true;
+            this.lblMag.BackColor = System.Drawing.Color.Transparent;
+            this.lblMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMag.ForeColor = System.Drawing.Color.Lime;
+            this.lblMag.Location = new System.Drawing.Point(312, 261);
+            this.lblMag.Name = "lblMag";
+            this.lblMag.Size = new System.Drawing.Size(57, 20);
+            this.lblMag.TabIndex = 15;
+            this.lblMag.Text = "label5";
+            // 
+            // lblRarity
+            // 
+            this.lblRarity.AutoSize = true;
+            this.lblRarity.BackColor = System.Drawing.Color.Transparent;
+            this.lblRarity.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRarity.ForeColor = System.Drawing.Color.MediumOrchid;
+            this.lblRarity.Location = new System.Drawing.Point(210, 46);
+            this.lblRarity.Name = "lblRarity";
+            this.lblRarity.Size = new System.Drawing.Size(330, 55);
+            this.lblRarity.TabIndex = 16;
+            this.lblRarity.Text = "LEGENDARY";
+            this.lblRarity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // iconBandit
+            // 
+            this.iconBandit.BackColor = System.Drawing.Color.Transparent;
+            this.iconBandit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconBandit.BackgroundImage")));
+            this.iconBandit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconBandit.Location = new System.Drawing.Point(49, 493);
+            this.iconBandit.Name = "iconBandit";
+            this.iconBandit.Size = new System.Drawing.Size(234, 62);
+            this.iconBandit.TabIndex = 17;
+            this.iconBandit.TabStop = false;
+            this.iconBandit.Visible = false;
+            // 
+            // iconDahl
+            // 
+            this.iconDahl.BackColor = System.Drawing.Color.Transparent;
+            this.iconDahl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconDahl.BackgroundImage")));
+            this.iconDahl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconDahl.Location = new System.Drawing.Point(52, 488);
+            this.iconDahl.Name = "iconDahl";
+            this.iconDahl.Size = new System.Drawing.Size(231, 67);
+            this.iconDahl.TabIndex = 18;
+            this.iconDahl.TabStop = false;
+            this.iconDahl.Visible = false;
+            // 
+            // iconHyperion
+            // 
+            this.iconHyperion.BackColor = System.Drawing.Color.Transparent;
+            this.iconHyperion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconHyperion.BackgroundImage")));
+            this.iconHyperion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconHyperion.Location = new System.Drawing.Point(52, 493);
+            this.iconHyperion.Name = "iconHyperion";
+            this.iconHyperion.Size = new System.Drawing.Size(231, 67);
+            this.iconHyperion.TabIndex = 19;
+            this.iconHyperion.TabStop = false;
+            this.iconHyperion.Visible = false;
+            // 
+            // iconJakobs
+            // 
+            this.iconJakobs.BackColor = System.Drawing.Color.Transparent;
+            this.iconJakobs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconJakobs.BackgroundImage")));
+            this.iconJakobs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconJakobs.Location = new System.Drawing.Point(52, 488);
+            this.iconJakobs.Name = "iconJakobs";
+            this.iconJakobs.Size = new System.Drawing.Size(231, 67);
+            this.iconJakobs.TabIndex = 20;
+            this.iconJakobs.TabStop = false;
+            this.iconJakobs.Visible = false;
+            // 
+            // iconMaliwan
+            // 
+            this.iconMaliwan.BackColor = System.Drawing.Color.Transparent;
+            this.iconMaliwan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconMaliwan.BackgroundImage")));
+            this.iconMaliwan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconMaliwan.Location = new System.Drawing.Point(52, 488);
+            this.iconMaliwan.Name = "iconMaliwan";
+            this.iconMaliwan.Size = new System.Drawing.Size(231, 67);
+            this.iconMaliwan.TabIndex = 21;
+            this.iconMaliwan.TabStop = false;
+            this.iconMaliwan.Visible = false;
+            // 
+            // iconTediore
+            // 
+            this.iconTediore.BackColor = System.Drawing.Color.Transparent;
+            this.iconTediore.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconTediore.BackgroundImage")));
+            this.iconTediore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconTediore.Location = new System.Drawing.Point(52, 488);
+            this.iconTediore.Name = "iconTediore";
+            this.iconTediore.Size = new System.Drawing.Size(231, 67);
+            this.iconTediore.TabIndex = 22;
+            this.iconTediore.TabStop = false;
+            this.iconTediore.Visible = false;
+            // 
+            // iconTorgue
+            // 
+            this.iconTorgue.BackColor = System.Drawing.Color.Transparent;
+            this.iconTorgue.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconTorgue.BackgroundImage")));
+            this.iconTorgue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconTorgue.Location = new System.Drawing.Point(52, 488);
+            this.iconTorgue.Name = "iconTorgue";
+            this.iconTorgue.Size = new System.Drawing.Size(231, 67);
+            this.iconTorgue.TabIndex = 23;
+            this.iconTorgue.TabStop = false;
+            this.iconTorgue.Visible = false;
+            // 
+            // iconVladof
+            // 
+            this.iconVladof.BackColor = System.Drawing.Color.Transparent;
+            this.iconVladof.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconVladof.BackgroundImage")));
+            this.iconVladof.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iconVladof.Location = new System.Drawing.Point(52, 488);
+            this.iconVladof.Name = "iconVladof";
+            this.iconVladof.Size = new System.Drawing.Size(231, 67);
+            this.iconVladof.TabIndex = 24;
+            this.iconVladof.TabStop = false;
+            this.iconVladof.Visible = false;
+            // 
+            // iconCorrosive
+            // 
+            this.iconCorrosive.BackColor = System.Drawing.Color.Transparent;
+            this.iconCorrosive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconCorrosive.BackgroundImage")));
+            this.iconCorrosive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconCorrosive.Location = new System.Drawing.Point(329, 489);
+            this.iconCorrosive.Name = "iconCorrosive";
+            this.iconCorrosive.Size = new System.Drawing.Size(86, 82);
+            this.iconCorrosive.TabIndex = 25;
+            this.iconCorrosive.TabStop = false;
+            this.iconCorrosive.Visible = false;
+            // 
+            // iconExplosive
+            // 
+            this.iconExplosive.BackColor = System.Drawing.Color.Transparent;
+            this.iconExplosive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconExplosive.BackgroundImage")));
+            this.iconExplosive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconExplosive.Location = new System.Drawing.Point(329, 488);
+            this.iconExplosive.Name = "iconExplosive";
+            this.iconExplosive.Size = new System.Drawing.Size(86, 82);
+            this.iconExplosive.TabIndex = 26;
+            this.iconExplosive.TabStop = false;
+            this.iconExplosive.Visible = false;
+            // 
+            // iconFire
+            // 
+            this.iconFire.BackColor = System.Drawing.Color.Transparent;
+            this.iconFire.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconFire.BackgroundImage")));
+            this.iconFire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconFire.Location = new System.Drawing.Point(329, 493);
+            this.iconFire.Name = "iconFire";
+            this.iconFire.Size = new System.Drawing.Size(86, 82);
+            this.iconFire.TabIndex = 27;
+            this.iconFire.TabStop = false;
+            this.iconFire.Visible = false;
+            // 
+            // iconShock
+            // 
+            this.iconShock.BackColor = System.Drawing.Color.Transparent;
+            this.iconShock.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconShock.BackgroundImage")));
+            this.iconShock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconShock.Location = new System.Drawing.Point(329, 493);
+            this.iconShock.Name = "iconShock";
+            this.iconShock.Size = new System.Drawing.Size(86, 82);
+            this.iconShock.TabIndex = 28;
+            this.iconShock.TabStop = false;
+            this.iconShock.Visible = false;
+            // 
+            // iconSlag
+            // 
+            this.iconSlag.BackColor = System.Drawing.Color.Transparent;
+            this.iconSlag.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("iconSlag.BackgroundImage")));
+            this.iconSlag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.iconSlag.Location = new System.Drawing.Point(329, 493);
+            this.iconSlag.Name = "iconSlag";
+            this.iconSlag.Size = new System.Drawing.Size(86, 82);
+            this.iconSlag.TabIndex = 29;
+            this.iconSlag.TabStop = false;
+            this.iconSlag.Visible = false;
+            // 
+            // lblSpecial
+            // 
+            this.lblSpecial.AutoSize = true;
+            this.lblSpecial.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpecial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpecial.ForeColor = System.Drawing.Color.Honeydew;
+            this.lblSpecial.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblSpecial.Location = new System.Drawing.Point(88, 384);
+            this.lblSpecial.MaximumSize = new System.Drawing.Size(600, 300);
+            this.lblSpecial.Name = "lblSpecial";
+            this.lblSpecial.Size = new System.Drawing.Size(80, 20);
+            this.lblSpecial.TabIndex = 30;
+            this.lblSpecial.Text = "lblDanno";
+            this.lblSpecial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSpecial.Visible = false;
+            // 
+            // lblCrit
+            // 
+            this.lblCrit.AutoSize = true;
+            this.lblCrit.BackColor = System.Drawing.Color.Transparent;
+            this.lblCrit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrit.ForeColor = System.Drawing.Color.Lime;
+            this.lblCrit.Location = new System.Drawing.Point(63, 310);
+            this.lblCrit.Name = "lblCrit";
+            this.lblCrit.Size = new System.Drawing.Size(57, 20);
+            this.lblCrit.TabIndex = 31;
+            this.lblCrit.Text = "label4";
             // 
             // Form2
             // 
@@ -100,17 +412,56 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(616, 547);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(724, 651);
+            this.Controls.Add(this.lblCrit);
+            this.Controls.Add(this.lblSpecial);
+            this.Controls.Add(this.iconSlag);
+            this.Controls.Add(this.iconShock);
+            this.Controls.Add(this.iconFire);
+            this.Controls.Add(this.iconExplosive);
+            this.Controls.Add(this.iconCorrosive);
+            this.Controls.Add(this.iconVladof);
+            this.Controls.Add(this.iconTorgue);
+            this.Controls.Add(this.iconTediore);
+            this.Controls.Add(this.iconMaliwan);
+            this.Controls.Add(this.iconJakobs);
+            this.Controls.Add(this.iconHyperion);
+            this.Controls.Add(this.iconDahl);
+            this.Controls.Add(this.iconBandit);
+            this.Controls.Add(this.lblRarity);
+            this.Controls.Add(this.lblMag);
+            this.Controls.Add(this.lblReload);
+            this.Controls.Add(this.lblRof);
+            this.Controls.Add(this.lblAcc);
+            this.Controls.Add(this.iconSniper);
+            this.Controls.Add(this.iconSmg);
+            this.Controls.Add(this.iconShotgun);
+            this.Controls.Add(this.iconRpg);
+            this.Controls.Add(this.iconRifle);
+            this.Controls.Add(this.iconPistol);
+            this.Controls.Add(this.lblDmg);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
             this.Text = "Boderlands Loot Generator";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPistol)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconRifle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconRpg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconShotgun)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSmg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSniper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBandit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconDahl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconHyperion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconJakobs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMaliwan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconTediore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconTorgue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconVladof)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCorrosive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconExplosive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconFire)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconShock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSlag)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,11 +469,32 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblDmg;
+        private System.Windows.Forms.PictureBox iconPistol;
+        private System.Windows.Forms.PictureBox iconRifle;
+        private System.Windows.Forms.PictureBox iconRpg;
+        private System.Windows.Forms.PictureBox iconShotgun;
+        private System.Windows.Forms.PictureBox iconSmg;
+        private System.Windows.Forms.PictureBox iconSniper;
+        private System.Windows.Forms.Label lblAcc;
+        private System.Windows.Forms.Label lblRof;
+        private System.Windows.Forms.Label lblReload;
+        private System.Windows.Forms.Label lblMag;
+        private System.Windows.Forms.Label lblRarity;
+        private System.Windows.Forms.PictureBox iconBandit;
+        private System.Windows.Forms.PictureBox iconDahl;
+        private System.Windows.Forms.PictureBox iconHyperion;
+        private System.Windows.Forms.PictureBox iconJakobs;
+        private System.Windows.Forms.PictureBox iconMaliwan;
+        private System.Windows.Forms.PictureBox iconTediore;
+        private System.Windows.Forms.PictureBox iconTorgue;
+        private System.Windows.Forms.PictureBox iconVladof;
+        private System.Windows.Forms.PictureBox iconCorrosive;
+        private System.Windows.Forms.PictureBox iconExplosive;
+        private System.Windows.Forms.PictureBox iconFire;
+        private System.Windows.Forms.PictureBox iconShock;
+        private System.Windows.Forms.PictureBox iconSlag;
+        private System.Windows.Forms.Label lblSpecial;
+        private System.Windows.Forms.Label lblCrit;
     }
 }

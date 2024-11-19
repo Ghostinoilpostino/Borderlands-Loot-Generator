@@ -64,7 +64,7 @@ ammo type                     ammo weapons               ammo supply         ran
 smg d4x2 -1 acc               20/24/30/36 2ammo con      500                 >6/10.5/16.5 
 pst d6   +1 acc               6/8/10/12                  300	             >25.5
 stg d10  +3/0/-3 acc          2/4/6/8                    100                 >3/6/10.5
-asr d8   +2 acc               25/35/50/60                420                 >35
+asr d8   +2 acc               25/35/50/60                420                 >30
 snp d12  -4/+4 acc +20%crit   3/5/7/9                    60                  >10.5/45
 rpg d20  0 acc                2/3/5/6                    15                  >25.5 inner 1/3/4
 gnr d6/d12/d20/3d20           n/a                        5                   >25.5 inner 1.5/4.5/6
