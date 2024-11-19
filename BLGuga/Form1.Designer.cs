@@ -46,22 +46,27 @@
             // 
             // btnGenerate
             // 
+            this.btnGenerate.BackColor = System.Drawing.SystemColors.Control;
             this.btnGenerate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnGenerate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGenerate.Font = new System.Drawing.Font("ECHO Sans", 16F, System.Drawing.FontStyle.Bold);
             this.btnGenerate.Location = new System.Drawing.Point(343, 380);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(113, 50);
             this.btnGenerate.TabIndex = 0;
             this.btnGenerate.Text = "Generate";
-            this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.UseVisualStyleBackColor = false;
             this.btnGenerate.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblRarMod
             // 
             this.lblRarMod.AutoSize = true;
-            this.lblRarMod.Location = new System.Drawing.Point(297, 571);
+            this.lblRarMod.BackColor = System.Drawing.Color.Transparent;
+            this.lblRarMod.Font = new System.Drawing.Font("ECHO Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRarMod.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lblRarMod.Location = new System.Drawing.Point(253, 570);
             this.lblRarMod.Name = "lblRarMod";
-            this.lblRarMod.Size = new System.Drawing.Size(74, 13);
+            this.lblRarMod.Size = new System.Drawing.Size(133, 19);
             this.lblRarMod.TabIndex = 1;
             this.lblRarMod.Text = "Rarity Modifier";
             // 
@@ -72,6 +77,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.inputRarMod.AutoSize = true;
             this.inputRarMod.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.inputRarMod.Font = new System.Drawing.Font("ECHO Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inputRarMod.Location = new System.Drawing.Point(407, 569);
             this.inputRarMod.Minimum = new decimal(new int[] {
             100,
@@ -79,18 +85,18 @@
             0,
             -2147483648});
             this.inputRarMod.Name = "inputRarMod";
-            this.inputRarMod.Size = new System.Drawing.Size(120, 20);
+            this.inputRarMod.Size = new System.Drawing.Size(120, 19);
             this.inputRarMod.TabIndex = 2;
             // 
             // lbl12
             // 
             this.lbl12.AutoSize = true;
             this.lbl12.BackColor = System.Drawing.Color.Transparent;
-            this.lbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl12.Font = new System.Drawing.Font("ECHO Sans", 36F, System.Drawing.FontStyle.Bold);
             this.lbl12.ForeColor = System.Drawing.Color.Red;
-            this.lbl12.Location = new System.Drawing.Point(568, 120);
+            this.lbl12.Location = new System.Drawing.Point(585, 133);
             this.lbl12.Name = "lbl12";
-            this.lbl12.Size = new System.Drawing.Size(78, 55);
+            this.lbl12.Size = new System.Drawing.Size(52, 36);
             this.lbl12.TabIndex = 3;
             this.lbl12.Text = "12";
             // 
@@ -98,11 +104,11 @@
             // 
             this.lbl20.AutoSize = true;
             this.lbl20.BackColor = System.Drawing.Color.Transparent;
-            this.lbl20.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl20.Font = new System.Drawing.Font("ECHO Sans", 36F, System.Drawing.FontStyle.Bold);
             this.lbl20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl20.Location = new System.Drawing.Point(568, 284);
+            this.lbl20.Location = new System.Drawing.Point(578, 293);
             this.lbl20.Name = "lbl20";
-            this.lbl20.Size = new System.Drawing.Size(78, 55);
+            this.lbl20.Size = new System.Drawing.Size(59, 36);
             this.lbl20.TabIndex = 4;
             this.lbl20.Text = "20";
             // 
@@ -110,11 +116,11 @@
             // 
             this.lbl6.AutoSize = true;
             this.lbl6.BackColor = System.Drawing.Color.Transparent;
-            this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6.Font = new System.Drawing.Font("ECHO Sans", 36F, System.Drawing.FontStyle.Bold);
             this.lbl6.ForeColor = System.Drawing.Color.Cyan;
-            this.lbl6.Location = new System.Drawing.Point(577, 451);
+            this.lbl6.Location = new System.Drawing.Point(601, 465);
             this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(51, 55);
+            this.lbl6.Size = new System.Drawing.Size(36, 36);
             this.lbl6.TabIndex = 5;
             this.lbl6.Text = "6";
             // 
@@ -122,11 +128,11 @@
             // 
             this.lbl10.AutoSize = true;
             this.lbl10.BackColor = System.Drawing.Color.Transparent;
-            this.lbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl10.Font = new System.Drawing.Font("ECHO Sans", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl10.ForeColor = System.Drawing.Color.Fuchsia;
-            this.lbl10.Location = new System.Drawing.Point(156, 120);
+            this.lbl10.Location = new System.Drawing.Point(156, 133);
             this.lbl10.Name = "lbl10";
-            this.lbl10.Size = new System.Drawing.Size(78, 55);
+            this.lbl10.Size = new System.Drawing.Size(50, 36);
             this.lbl10.TabIndex = 6;
             this.lbl10.Text = "10";
             this.lbl10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -135,11 +141,11 @@
             // 
             this.lbl8.AutoSize = true;
             this.lbl8.BackColor = System.Drawing.Color.Transparent;
-            this.lbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl8.Font = new System.Drawing.Font("ECHO Sans", 36F, System.Drawing.FontStyle.Bold);
             this.lbl8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbl8.Location = new System.Drawing.Point(156, 284);
+            this.lbl8.Location = new System.Drawing.Point(156, 293);
             this.lbl8.Name = "lbl8";
-            this.lbl8.Size = new System.Drawing.Size(51, 55);
+            this.lbl8.Size = new System.Drawing.Size(35, 36);
             this.lbl8.TabIndex = 7;
             this.lbl8.Text = "8";
             // 
@@ -147,11 +153,11 @@
             // 
             this.lbl4.AutoSize = true;
             this.lbl4.BackColor = System.Drawing.Color.Transparent;
-            this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl4.Font = new System.Drawing.Font("ECHO Sans", 36F, System.Drawing.FontStyle.Bold);
             this.lbl4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl4.Location = new System.Drawing.Point(156, 451);
+            this.lbl4.Location = new System.Drawing.Point(156, 465);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(51, 55);
+            this.lbl4.Size = new System.Drawing.Size(35, 36);
             this.lbl4.TabIndex = 8;
             this.lbl4.Text = "4";
             // 
@@ -171,25 +177,30 @@
             // lblRollMod
             // 
             this.lblRollMod.AutoSize = true;
-            this.lblRollMod.Location = new System.Drawing.Point(297, 71);
+            this.lblRollMod.BackColor = System.Drawing.Color.Transparent;
+            this.lblRollMod.Font = new System.Drawing.Font("ECHO Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRollMod.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lblRollMod.Location = new System.Drawing.Point(276, 70);
             this.lblRollMod.Name = "lblRollMod";
-            this.lblRollMod.Size = new System.Drawing.Size(65, 13);
+            this.lblRollMod.Size = new System.Drawing.Size(110, 19);
             this.lblRollMod.TabIndex = 10;
             this.lblRollMod.Text = "Roll Modifier";
             // 
             // inputRollMod
             // 
             this.inputRollMod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.inputRollMod.Font = new System.Drawing.Font("ECHO Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inputRollMod.FormattingEnabled = true;
             this.inputRollMod.Items.AddRange(new object[] {
             "None",
             "Weapon",
             "Grenade",
             "Relic",
-            "Shield"});
+            "Shield",
+            "Equipment"});
             this.inputRollMod.Location = new System.Drawing.Point(406, 68);
             this.inputRollMod.Name = "inputRollMod";
-            this.inputRollMod.Size = new System.Drawing.Size(121, 21);
+            this.inputRollMod.Size = new System.Drawing.Size(121, 20);
             this.inputRollMod.TabIndex = 11;
             // 
             // Form1

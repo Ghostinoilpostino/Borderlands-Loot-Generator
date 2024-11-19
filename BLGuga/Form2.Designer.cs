@@ -81,11 +81,11 @@
             // 
             this.lblDmg.AutoSize = true;
             this.lblDmg.BackColor = System.Drawing.Color.Transparent;
-            this.lblDmg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDmg.Font = new System.Drawing.Font("ECHO Sans", 24F, System.Drawing.FontStyle.Bold);
             this.lblDmg.ForeColor = System.Drawing.Color.Lime;
-            this.lblDmg.Location = new System.Drawing.Point(312, 120);
+            this.lblDmg.Location = new System.Drawing.Point(290, 113);
             this.lblDmg.Name = "lblDmg";
-            this.lblDmg.Size = new System.Drawing.Size(80, 20);
+            this.lblDmg.Size = new System.Drawing.Size(107, 24);
             this.lblDmg.TabIndex = 1;
             this.lblDmg.Text = "lblDanno";
             // 
@@ -165,11 +165,11 @@
             // 
             this.lblAcc.AutoSize = true;
             this.lblAcc.BackColor = System.Drawing.Color.Transparent;
-            this.lblAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcc.Font = new System.Drawing.Font("ECHO Sans", 24F, System.Drawing.FontStyle.Bold);
             this.lblAcc.ForeColor = System.Drawing.Color.Lime;
-            this.lblAcc.Location = new System.Drawing.Point(312, 153);
+            this.lblAcc.Location = new System.Drawing.Point(290, 153);
             this.lblAcc.Name = "lblAcc";
-            this.lblAcc.Size = new System.Drawing.Size(57, 20);
+            this.lblAcc.Size = new System.Drawing.Size(77, 24);
             this.lblAcc.TabIndex = 12;
             this.lblAcc.Text = "lblAcc";
             // 
@@ -177,11 +177,11 @@
             // 
             this.lblRof.AutoSize = true;
             this.lblRof.BackColor = System.Drawing.Color.Transparent;
-            this.lblRof.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRof.Font = new System.Drawing.Font("ECHO Sans", 24F, System.Drawing.FontStyle.Bold);
             this.lblRof.ForeColor = System.Drawing.Color.Lime;
-            this.lblRof.Location = new System.Drawing.Point(312, 189);
+            this.lblRof.Location = new System.Drawing.Point(290, 191);
             this.lblRof.Name = "lblRof";
-            this.lblRof.Size = new System.Drawing.Size(57, 20);
+            this.lblRof.Size = new System.Drawing.Size(77, 24);
             this.lblRof.TabIndex = 13;
             this.lblRof.Text = "label3";
             // 
@@ -189,35 +189,36 @@
             // 
             this.lblReload.AutoSize = true;
             this.lblReload.BackColor = System.Drawing.Color.Transparent;
-            this.lblReload.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReload.Font = new System.Drawing.Font("ECHO Sans", 24F, System.Drawing.FontStyle.Bold);
             this.lblReload.ForeColor = System.Drawing.Color.Lime;
-            this.lblReload.Location = new System.Drawing.Point(312, 223);
+            this.lblReload.Location = new System.Drawing.Point(290, 224);
             this.lblReload.Name = "lblReload";
-            this.lblReload.Size = new System.Drawing.Size(57, 20);
+            this.lblReload.Size = new System.Drawing.Size(63, 24);
             this.lblReload.TabIndex = 14;
-            this.lblReload.Text = "label4";
+            this.lblReload.Text = "label";
             // 
             // lblMag
             // 
             this.lblMag.AutoSize = true;
             this.lblMag.BackColor = System.Drawing.Color.Transparent;
-            this.lblMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMag.Font = new System.Drawing.Font("ECHO Sans", 24F, System.Drawing.FontStyle.Bold);
             this.lblMag.ForeColor = System.Drawing.Color.Lime;
-            this.lblMag.Location = new System.Drawing.Point(312, 261);
+            this.lblMag.Location = new System.Drawing.Point(290, 260);
             this.lblMag.Name = "lblMag";
-            this.lblMag.Size = new System.Drawing.Size(57, 20);
+            this.lblMag.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblMag.Size = new System.Drawing.Size(63, 24);
             this.lblMag.TabIndex = 15;
-            this.lblMag.Text = "label5";
+            this.lblMag.Text = "label";
             // 
             // lblRarity
             // 
             this.lblRarity.AutoSize = true;
             this.lblRarity.BackColor = System.Drawing.Color.Transparent;
-            this.lblRarity.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRarity.Font = new System.Drawing.Font("ECHO Sans", 50F, System.Drawing.FontStyle.Bold);
             this.lblRarity.ForeColor = System.Drawing.Color.MediumOrchid;
-            this.lblRarity.Location = new System.Drawing.Point(210, 46);
+            this.lblRarity.Location = new System.Drawing.Point(235, 47);
             this.lblRarity.Name = "lblRarity";
-            this.lblRarity.Size = new System.Drawing.Size(330, 55);
+            this.lblRarity.Size = new System.Drawing.Size(269, 51);
             this.lblRarity.TabIndex = 16;
             this.lblRarity.Text = "LEGENDARY";
             this.lblRarity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -382,13 +383,13 @@
             // 
             this.lblSpecial.AutoSize = true;
             this.lblSpecial.BackColor = System.Drawing.Color.Transparent;
-            this.lblSpecial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpecial.Font = new System.Drawing.Font("ECHO Sans", 20F, System.Drawing.FontStyle.Bold);
             this.lblSpecial.ForeColor = System.Drawing.Color.Honeydew;
             this.lblSpecial.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.lblSpecial.Location = new System.Drawing.Point(88, 384);
             this.lblSpecial.MaximumSize = new System.Drawing.Size(600, 300);
             this.lblSpecial.Name = "lblSpecial";
-            this.lblSpecial.Size = new System.Drawing.Size(80, 20);
+            this.lblSpecial.Size = new System.Drawing.Size(90, 20);
             this.lblSpecial.TabIndex = 30;
             this.lblSpecial.Text = "lblDanno";
             this.lblSpecial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -398,11 +399,11 @@
             // 
             this.lblCrit.AutoSize = true;
             this.lblCrit.BackColor = System.Drawing.Color.Transparent;
-            this.lblCrit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrit.Font = new System.Drawing.Font("ECHO Sans", 20F, System.Drawing.FontStyle.Bold);
             this.lblCrit.ForeColor = System.Drawing.Color.Lime;
             this.lblCrit.Location = new System.Drawing.Point(63, 310);
             this.lblCrit.Name = "lblCrit";
-            this.lblCrit.Size = new System.Drawing.Size(57, 20);
+            this.lblCrit.Size = new System.Drawing.Size(66, 20);
             this.lblCrit.TabIndex = 31;
             this.lblCrit.Text = "label4";
             // 

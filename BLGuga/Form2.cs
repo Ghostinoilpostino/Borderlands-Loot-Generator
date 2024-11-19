@@ -276,7 +276,7 @@ namespace BLGuga
                 case 6:
                     this.lblDmg.Text = "d20";
                     this.lblAcc.Text = "d20";
-                    this.lblReload.Text += "25.5 | Explosive Range: 1/3/4";
+                    this.lblReload.Text += "25.5 | Exp. Rng.: 1/3/4";
                     this.lblCrit.Text = "No Crit";
 
                     if (rarity <= 10) this.lblMag.Text = "0";

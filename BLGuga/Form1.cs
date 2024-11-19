@@ -77,6 +77,10 @@ namespace BLGuga
                     rolls[1] = 8;
                     this.lbl10.Text = rolls[1].ToString();
                     break;
+                case 5:
+                    if (rolls[1] == 9) rolls[1] = 10;
+                    this.lbl10.Text = rolls[1].ToString();
+                    break;
             }
             this.lbl100.Show();
             if (rolls[0] > 100)
